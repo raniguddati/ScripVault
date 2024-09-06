@@ -1,0 +1,260 @@
+  .profileWrapper {
+    margin: 4vw 0;
+    width: 70vw;
+    margin: auto;
+  }
+  .profileWrapper > div {
+    margin: 2vw 0;
+  }
+  .profileWrapper .heading {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .policyName .name {
+    display: grid;
+    /* grid-template-columns: 0.3fr 2fr; */
+    align-items: center;
+  }
+  .policyName .name img {
+    border-radius: 50%;
+    width: 4.5vw;
+    padding: 0.5vw;
+    margin: auto;
+    box-shadow: 0 0 6px #00000085;
+  }
+  .policyName .name h2 {
+    font-size: 2.5vw;
+  }
+  .heading .yearReturn {
+    margin: auto;
+  }
+  .heading .policyFeed span {
+    margin: 0 1vw;
+    align-items: center;
+    background-color: white;
+    color: #6d6d75;
+    font-weight: 500;
+    border: 1px solid #a8a8a8;
+    box-shadow: none;
+  }
+  .heading .policyFeed #star {
+    border: none !important;
+  }
+  .heading .policyFeed #star i {
+    font-size: 0.9vw;
+    color: rgb(255, 186, 27);
+  }
+  .heading .percentReturn h2 {
+    font-weight: 700;
+    font-size: 2vw;
+  }
+  .heading .oneYearReturn h6 {
+    color: #6d6d75;
+    font-weight: 400;
+  }
+  .profileWrapper .sparkline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .profileWrapper .sparklineData {
+    width: 100%;
+    margin: auto;
+  }
+  .profileWrapper .policyDetails p {
+    padding: 0.5vw 2vw;
+    line-height: 2vw;
+    font-size: 1.1vw;
+    color: #6d6d75;
+  }
+  .profileWrapper .policyDetails p::first-letter {
+    font-size: 2vw;
+  }
+  .profileWrapper .fundDetails, .profileWrapper .prosCons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3vw;
+  }
+  .profileWrapper .fundDetails .collectionItem {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .fundDetails .collectionItem, .prosCons .collectionItem {
+    font-weight: 500;
+    font-size: 1.1vw;
+  }
+  .fundDetails .collection li div:not(:first-child), .prosCons .collection li span {
+    font-weight: 500;
+    color: #6d6d75;
+    font-size: 1vw;
+  }
+  .aboutPolicy p {
+    line-height: 2vw;
+    font-size: 1.1vw;
+    color: #6d6d75;
+  }
+
+  
+.ReactModal__Content--after-open {
+  padding: 0px !important;
+  border-radius: 30px !important;
+  width: 100%;
+  max-width: 620px;
+}
+.modal-title {
+  background: rgba(5, 157, 176, 1);
+}
+.modal-title-txt {
+  display: flex;
+  width: 100%;
+  max-width: 65%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title-txt h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+.modal-title-txt-2 h2 {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+.list-text-content li {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 42px;
+}
+
+.modal-title h2 {
+  color: #fff;
+  text-align: center;
+}
+.cross-btn {
+  cursor: pointer;
+}
+.form-control {
+  border-radius: 30px !important;
+  border: 1px solid #d9d9d9 !important;
+  height: 45px;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.modal-btn--1 {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-btn--1 button {
+  color: var(--white, #fff);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  height: 56px;
+  padding: 6px 68px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(
+    --button-g,
+    linear-gradient(90deg, #059db0 0%, #0458b9 96.88%)
+  );
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.modal-btn--1 button:hover {
+  background: #0339bc;
+}
+.modal-btn--1 button:active {
+  background: #a5a5a5;
+}
+
+.modalHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.quantityControl button {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+
+.stopLoss input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.modalFooter {
+  display: flex;
+  gap: 10px;
+}
+
+.buyButton, .cancelButton {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  
+}
+
+.buyButton {
+  background-color: green;
+  /* margin-right: 10px; */
+  margin-left: auto;
+}
+
+.cancelButton {
+  background-color: red;
+}
+
+.modalHeader{
+  background-color: rgb(77, 77, 233);
+  color: #fff;
+}
+.formGroup {
+  width: 30%;
+  margin: 20px 5px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+}
+
+.inputGroupBtn {
+  margin: 0 5px;
+}
+

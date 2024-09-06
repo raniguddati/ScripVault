@@ -1,0 +1,123 @@
+@import "~font-awesome/css/font-awesome.css";
+:root {
+  --primary-color: #3f51b5;
+  --dark-gray: #333333;
+}
+
+/* Secondary Colors */
+
+:root {
+  --green: #4caf50;
+  --red: #f44336;
+  --amber: #ffc107;
+}
+
+/* Neutral Colors */
+
+:root {
+  --white: #ffffff;
+  --light-gray: #cccccc;
+}
+
+/* Accent Colors */
+
+:root {
+  --gold: #ffd700;
+  --turquoise: #00bcd4;
+}
+
+/* Interactive Colors */
+
+:root {
+  --light-blue: #2196f3;
+  --purple: #9c27b0;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--dark-gray);
+  font-family: Arial, sans-serif;
+}
+
+.wl_heading {
+  margin-top: 30px;
+  padding: 1px;
+}
+
+.watchlist h2 {
+  padding-left: 26em;
+  font-size: 25px;
+  color: var(--black);
+}
+
+.stock {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.stock-card {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid var(--light-gray);
+  border-radius: 2px;
+}
+
+.stock h1 {
+  font-size: 20px;
+}
+
+.green-text {
+  color: var(--green);
+}
+
+.red-text {
+  color: var(--red);
+}
+
+
+.stock-action-button {
+  display: flex;
+  gap: 15px;
+}
+.sell-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #333333;
+  gap: 8px;
+  border: 1px solid var(--light-gray);
+  padding: 8px 36px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.sell-button:hover{
+    color: white;
+    background: red;
+    font-weight: 600;
+}
+
+.buy-button:hover{
+    color: white;
+    background: green;
+    font-weight: 600;
+}
+
+.buy-button {
+  display: flex;
+  border-color: #333333;
+  gap: 8px;
+  border: 1px solid var(--light-gray);
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
