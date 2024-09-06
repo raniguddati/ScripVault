@@ -1,55 +1,34 @@
-# ScriptVault
+# upGrad Capstone Project - ScripVault
 
-## Getting Started
+##### Tools using: React , Express, Node JS, Mongo db etc
 
-To get started with ScriptVault, follow these steps:
+## Introduction
 
-1. Clone this repository to your local machine.
-2. Install the required dependencies in the flixxit folder and backend folder using `npm install`.
-3. Set up the necessary environment variables for third-party services.
+ScripVault is a stock market and mutual fund advisory, investment and tracking platform that allows users to setup goal-oriented investment portfolios and track their progress every day. You may refer to Scripbox: Invest in Mutual Funds, Fixed Deposit and Financial Planning or Invezta: Best online mutual fund investment platform for visual reference on the overall scope of this project.
 
-## Clone the Repository
+Analyse similar platforms for reference and try and build simulated functionality such as the ability to browse mutual funds, place an order for purchase, viewing portfolio etc. A feature wish list is presented below.
 
-Clone this repository to your local machine using the following command:
+#### Project building steps:
 
-```bash
-git clone https://github.com/your-username/ScriptVault.git
+- Do checkout the project and open it IDE VS Code
+
+```
+git clone https://github.com/raniguddati/ScripVault.git
+cd ScripVault
 ```
 
-Replace your-username with your GitHub username.
+Install and run the frontend app
 
-## Usage
-
-To run ScriptVault locally, use the following command in root directory:
-
-```bash
+```
+cd frontend
+npm install
 npm start
 ```
 
-Access the application in your web browser at `http://localhost:3000`.
+Install and run the backend app
 
-## Technologies Used
-
-ScriptVault is built using the following technologies:
-
-- React
-- Node.js
-- Express.js
-- MongoDB
-- Stripe API
-- Axios
-- HTML/CSS
-- JavaScript
-
-## Test Credentials:
-
-user@gmail.com
-Password: 123456
-
-## Note
-
-The application uses the Alpha Vantage free tier, which has a limitation of only 100 API calls per day. As a result, the Explore and Detail sections may not display data if the limit is reached.
-
-If the Explore section of the application does not have any data available, clicking the "Buy" button may result in a server error (HTTP 500). Users should be informed that they need to ensure that the Explore section has data before attempting to make a purchase.
-
-In Dashboard, it is used for fetching latest prices , dur to the limit responses Some data may not be available, and you may experience a 100% loss.
+```
+cd backend
+npm install
+npm start
+```
